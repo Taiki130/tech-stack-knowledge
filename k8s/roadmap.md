@@ -4,4 +4,6 @@
 - Quay.ioでクラウドにコンテナレジストリを構築できる
 - RailsをDockerで起動する際は、server.pidを削除するため、entrypoint.shを実行する
     - https://github.com/docker/awesome-compose/tree/master/official-documentation-samples/rails/
-
+- Goの場合はビルドしたバイナリがあれば実行できるのでdistolessで起動できる
+    - https://github.com/GoogleContainerTools/distroless/blob/main/examples/go/Dockerfile
+    - https://docs.docker.com/language/golang/build-images/#multi-stage-builds
