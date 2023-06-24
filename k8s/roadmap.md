@@ -10,3 +10,6 @@
 - PodDisruptionBudgetで安全なメンテナンスができる
 - preStopでsleepさせるとアプリケーションを安全に停止できる
 - 高度なJobの並列処理を行う場合は、CronJobでは機能が不足しているためArgo Workflowsなどが使える
+- データベース構築、データのバックアップ、リストア、データベース自体のアップグレード処理を自動で行うkubernetes operatorを検討する
+    - ノード数やデータ容量が大きい環境の場合推奨
+    - https://operatorhub.io/
