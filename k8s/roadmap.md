@@ -13,3 +13,6 @@
 - データベース構築、データのバックアップ、リストア、データベース自体のアップグレード処理を自動で行うkubernetes operatorを検討する
     - ノード数やデータ容量が大きい環境の場合推奨
     - https://operatorhub.io/
+- Gateway API
+    - Ingressの機能を提供するAPI
+    - 役割に基づいてIngressリソースをGatewayリソースとxRouteリソースの２種類に分割したもの
