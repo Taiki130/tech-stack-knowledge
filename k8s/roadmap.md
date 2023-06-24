@@ -7,3 +7,4 @@
 - Goの場合はビルドしたバイナリがあれば実行できるのでdistolessで起動できる
     - https://github.com/GoogleContainerTools/distroless/blob/main/examples/go/Dockerfile
     - https://docs.docker.com/language/golang/build-images/#multi-stage-builds
+- PodDisruptioonBudgetで安全なメンテナンスができる
