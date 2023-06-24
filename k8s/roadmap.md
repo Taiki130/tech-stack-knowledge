@@ -9,3 +9,4 @@
     - https://docs.docker.com/language/golang/build-images/#multi-stage-builds
 - PodDisruptionBudgetで安全なメンテナンスができる
 - preStopでsleepさせるとアプリケーションを安全に停止できる
+- 高度なJobの並列処理を行う場合は、CronJobでは機能が不足しているためArgo Workflowsなどが使える
