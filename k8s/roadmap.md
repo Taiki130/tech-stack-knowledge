@@ -16,3 +16,15 @@
 - Gateway API
     - Ingressの機能を提供するAPI
     - 役割に基づいてIngressリソースをGatewayリソースとxRouteリソースの２種類に分割したもの
+- GitOps
+    - コード用repo
+        - テスト
+        - コンテナビルド
+        - 脆弱性スキャン
+        - SBOMの生成
+        - レジストリへのプッシュ
+        - コンフィグ用repoのmanifestを書き換える
+    - コンフィグ用repo
+        - シンタックスの確認
+        - 特定のポリシーに合致しているかの確認
+        - 廃止・削除されたAPI Versionを利用しているかの確認
