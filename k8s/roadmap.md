@@ -57,3 +57,6 @@
             - ArgoCDでも複数のクラスタを管理する場合は、クラスタ外にあるArgoCDから複数のクラスタを管理するアーキテクチャを取る
         - GitOpsの代表的ソフトウェア
             - ArgoCDやFluxCDがdeploy agentとしての役割を果たす
+- マニフェストを効率的に管理するツール
+    - helm
+    - kustomize
