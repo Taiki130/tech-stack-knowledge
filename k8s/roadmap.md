@@ -60,3 +60,7 @@
 - マニフェストを効率的に管理するツール
     - helm
     - kustomize
+- external secretsというoperatorがあり、repoで機密情報を管理しないようにできる
+    - parameter storeも対応してそう
+        - https://external-secrets.io/v0.5.7/provider-aws-parameter-store/
+        - https://atmarkit.itmedia.co.jp/ait/articles/2209/29/news015.html
