@@ -64,3 +64,6 @@
     - parameter storeも対応してそう
         - https://external-secrets.io/v0.5.7/provider-aws-parameter-store/
         - https://atmarkit.itmedia.co.jp/ait/articles/2209/29/news015.html
+- 高度なデプロイ
+    - istio
+    - Argo Rollouts
