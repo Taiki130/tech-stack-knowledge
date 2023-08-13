@@ -4,3 +4,7 @@
 - fuser
 - pwdx PID
 - lsof -p PID
+
+## 集計
+- sort
+- uniq -c
