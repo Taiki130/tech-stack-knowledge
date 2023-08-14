@@ -22,3 +22,13 @@
 ## ディスク容量
 - df -h
 - du -sh /opt/pgdata/main
+
+## ローカルファイアウォールの確認
+- iptables -L
+    - 現在のルールを表示
+- iptables -F
+    - ルールのflush
+
+## ファイルの権限
+- chown www-data:/var/www/html/index.html
+    - /var/www/html/index.htmlの所有者、所有グループをwww-dataというユーザーに変更
