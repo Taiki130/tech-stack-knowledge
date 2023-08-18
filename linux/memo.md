@@ -17,8 +17,15 @@
 
 ## エラーの確認
 - journalctl -u postgresql
+    - systemd-journaldが収集したログを表示するためのコマンド
+    - -u service名でそのサービスのlogを出力
 - journalctl -p err
+    - 特定プライオリティ以上でフィルタ
 - tail -f /var/log/syslog
+    - rsyslogはsyslogより新しい
+    - reliable syslog
+    - tcp, 暗号化など
+    - systemd環境ではjournaldがまずシステム上のログを受け取り、必要に応じてrsyslogへログを転送
 - grep -i 'no space left' /var/log/syslog
 
 ## ディスク容量
