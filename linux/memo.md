@@ -2,7 +2,9 @@
 - ps auxf
 - lsof
 - fuser
+    - 引数として渡されたファイルやファイルシステムのプロセスIDを確認
 - pwdx PID
+    - プロセスの作業ディレクトリを表示
 - lsof -p PID
 
 ## 集計
