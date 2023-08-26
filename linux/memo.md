@@ -86,3 +86,10 @@ LimitNOFILE=32768
 # systemctl daemon-reload
 # systemctl restart nginx
 ```
+
+## ファイルディスクリプタ調べ、プロセスをkillすることなく閉じる
+- https://zenn.dev/mom0tomo/articles/1ec9a644daabcf
+    - execを使うと、現在のシェルのリダイレクト先を変更できる
+    - &-はclose
+    - exec 77>&-
+        - ファイルディスクリプタ番号77をclose
