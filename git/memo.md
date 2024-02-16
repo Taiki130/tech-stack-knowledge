@@ -1,14 +1,20 @@
 ## 特定dir以下のすべてのdirでgit grepする
 
-```yaml
+```bash
 cd ~/Projects
 for i in *; do ( cd $i; echo $i; git grep "<検索>" HEAD ); done
 ```
 
 ## nuでorgのrepo全部clone
 
-```yaml
+```nu
 gh repo list PORT-INC -L 300 --json sshUrl | from json | par-each -t 10 {|f| git clone $f.sshUrl}
+```
+
+## bash
+
+```bash
+gh repo list PORT-INC --no-archived --limit 300 --json sshUrl | jq -r '.[].sshUrl' | xargs -I{} git clone {}
 ```
 
 ## リモートブランチの削除
