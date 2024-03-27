@@ -2,6 +2,8 @@
 
 https://gist.github.com/colbyfayock/1710edb9f47ceda0569844f791403e7e
 
+また以下のpayloadも使える
+https://github.com/mcolyer/actions-toolkit-action/tree/master/fixtures
 
 ```json
 {
